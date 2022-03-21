@@ -28,7 +28,9 @@
 }
 
 #pixel-board {
-width: 210px;
+width: auto;
+height: auto;
+display: inline-block;
 }
 
 .pixel {
@@ -36,5 +38,18 @@ width: 210px;
   height: 40px;
   border: black solid 1px;
   display: inline-block;
-  background-color: white;
+  margin-top: 0;
+}
+
+.selected {
+ 
+}
+
+#clear-board {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.limpar {
+  background-color: blue;
 }
